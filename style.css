@@ -14,21 +14,89 @@ html, body{
 }
 
 nav{
+    position: fixed;
+    top: 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 100%;
     height: 15vh;
-    background-color:aquamarine;
     padding: 0 3vw;
 }
 
-.left-nav{
+.left-nav {
 font-size: 1.5vw;
 height: 6vh;
-background-color: brown;
+overflow: hidden;
+cursor: pointer;
 }
 
-.left-nav h1:nth-child(1){
-margin-top: -6vh;
+.left-nav h1{
+transition: all cubic-bezier(0.19, 1, 0.22, 1)1s;
+
 }
+
+.left-nav:hover #logo{
+margin-top: -5.5vh;
+}
+
+.right-nav{
+    font-size: 0.8vw;
+height: 3vh;
+overflow: hidden;
+cursor: pointer;
+}
+
+.right-nav h2{
+    transition: all cubic-bezier(0.19, 1, 0.22, 1)1s;
+    
+    }
+    
+    .right-nav:hover #nav-contact{
+    margin-top: -3vh;
+    }
+
+    .part-1{
+        width: 100%;
+        height: 100vh;
+        background-color: #000;
+    }
+
+    .content-part-1{
+        display: flex;
+        align-items: start;
+        justify-content: center;
+        width: 100%;
+        height: 100vh;
+    }
+
+    .rotate-div{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 3vw;
+        width: 200vw;
+        height: 200vh;
+        background-color: #000;
+    }
+
+    .row-div{
+        display: flex;
+        flex-direction: column;
+        gap: 3vh;
+        width: calc(200vw/5);
+        height: 100%;
+        background-color:aliceblue;
+    }
+
+    .img-div{
+        width: 100%;
+        height: calc(100%/4);
+        background-color:aquamarine;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+
+    .img-div img{
+        width: 100%;
+    }
