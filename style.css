@@ -22,6 +22,7 @@ nav{
     width: 100%;
     height: 15vh;
     padding: 0 3vw;
+    mix-blend-mode: difference;
 }
 
 .left-nav {
@@ -32,6 +33,7 @@ cursor: pointer;
 }
 
 .left-nav h1{
+    color: #fff;
 transition: all cubic-bezier(0.19, 1, 0.22, 1)1s;
 
 }
@@ -48,6 +50,7 @@ cursor: pointer;
 }
 
 .right-nav h2{
+    color: #fff;
     transition: all cubic-bezier(0.19, 1, 0.22, 1)1s;
     
     }
@@ -86,17 +89,31 @@ cursor: pointer;
         gap: 3vh;
         width: calc(200vw/5);
         height: 100%;
-        background-color:aliceblue;
     }
 
     .img-div{
         width: 100%;
         height: calc(100%/4);
-        background-color:aquamarine;
         border-radius: 10px;
         overflow: hidden;
     }
 
     .img-div img{
         width: 100%;
+    }
+
+    #row-div-2{
+        margin-top: -5%;
+    }
+
+    #row-div-3{
+        margin-top: -8%;
+    }
+
+    #row-div-4{
+        margin-top: -12%;
+    }
+
+    #row-div-5{
+        margin-top: -15%;
     }
