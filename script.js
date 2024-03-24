@@ -10,3 +10,11 @@ function raf(time) {
 }
 
 requestAnimationFrame(raf)
+
+var tl = gsap.timeline({scrollTrigger:{trigger:".part-1",
+start:"50% 50%",
+end:"150% 50%",
+scrub:true,
+markers:true,
+pin:true,
+}})
