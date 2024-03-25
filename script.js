@@ -18,3 +18,20 @@ scrub:true,
 markers:true,
 pin:true,
 }})
+
+tl.to(".rotate-div",{
+    rotate: -15,
+    scale:0.8,
+},'a')
+tl.to("#row-div-2",{
+    marginTop:"5%"
+},'a')
+tl.to("#row-div-3",{
+    marginTop:"-2%"
+},'a')
+tl.to("#row-div-4",{
+    marginTop:"-8%"
+},'a')
+tl.to("#row-div-5",{
+    marginTop:"-10%"
+},'a')
