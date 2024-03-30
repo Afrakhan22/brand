@@ -13,7 +13,7 @@ requestAnimationFrame(raf)
 
 var tl = gsap.timeline({scrollTrigger:{trigger:".part-1",
 start:"50% 50%",
-end:"150% 50%",
+end:"250% 50%",
 scrub:true,
 markers:true,
 pin:true,
@@ -34,4 +34,13 @@ tl.to("#row-div-4",{
 },'a')
 tl.to("#row-div-5",{
     marginTop:"-10%"
+},'a')
+
+tl.to(".overlay-div h1",{
+    opacity:"1",
+    delay:0.2,
+},'a')
+
+tl.to(".overlay-div ",{
+    backgroundColor:"#00000081",
 },'a')
