@@ -15,7 +15,7 @@ var tl = gsap.timeline({scrollTrigger:{trigger:".part-1",
 start:"50% 50%",
 end:"250% 50%",
 scrub:true,
-markers:true,
+// markers:true,
 pin:true,
 }})
 
@@ -43,4 +43,8 @@ tl.to(".overlay-div h1",{
 
 tl.to(".overlay-div ",{
     backgroundColor:"#00000081",
+},'a')
+
+tl.to(".scrolling ",{
+    width:"100%",
 },'a')
